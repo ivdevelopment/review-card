@@ -1,6 +1,6 @@
-# Frontend Mentor - NFT preview card component solution
+# Frontend Mentor - Stats preview card component solution
 
-This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -25,13 +25,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://tinyurl.com/y8cdvk4u)
+![](https://tinyurl.com/ycwyhl8r)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ivdevelopment/nft-preview-card)
-- Live Site URL: [Add live site URL here](https://ivdevelopment.github.io/nft-preview-card/)
+- Solution URL: [Add solution URL here](https://github.com/ivdevelopment/review-card)
+- Live Site URL: [Add live site URL here](https://ivdevelopment.github.io/review-card/)
 
 
 ### Built with
