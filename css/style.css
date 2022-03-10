@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container {
+    width: 70rem;
+    height: 35rem;
+    background: hsl(233, 47%, 7%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    font-size: 15px;
+}
+
+.card-container {
+    width: 55rem;
+    height: 20rem;
+    background: hsl(244, 38%, 16%);
+    display: flex;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+.left-card {
+    width: 27.5rem;
+    padding-left: 3em;
+    padding-top: 1.5em;
+}
+
+.left-card h2 {
+    color: hsl(0, 0%, 100%);
+    width: 20ch;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.header p {
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 42ch;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+span {
+    color: hsl(277, 64%, 61%);
+}
+
+.bottom {
+    display: flex;
+    line-height: 1px;
+    flex-direction: row;
+    row-gap: 2em;
+    column-gap: 2em;
+    padding-top: 3em;
+}
+
+.bottom h3 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+}
+
+.bottom p {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.right-card {
+    background: url(../images/image-header-desktop.jpg) no-repeat center;
+    background-size: cover;
+    width: 27.5rem;
+    height: 20rem;
+}
+
+.overlay {
+    background-color: hsl(277, 42%, 50%);
+    width: 27.5rem;
+    opacity: 0.5;
+    height: 20rem;
+}
+
+@media screen and (max-width: 890px) {
+    .card-container {
+        width: 20rem;
+        height: 45rem;
+        flex-direction: column;
+        text-align: center;
+    }
+    .container {
+        width: 35rem;
+        height: 52rem;
+    }
+    .right-card {
+        order: 1;
+        height: 15rem;
+    }
+    .left-card {
+        order: 2;
+        padding-left: 1.25em;
+        padding-top: 1.5em;
+        text-align: center;
+    }
+    .header p {
+        width: 30ch;
+    }
+    .left-card h2 {
+        max-width: max-content;
+    }
+    .overlay {
+        height: 15rem;
+    }
+    .bottom {
+        flex-direction: column;
+        position: relative;
+        right: 5em;
+        padding-top: 1em;
+    }
+}
